@@ -5,7 +5,7 @@ public class MultidimArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int a[][] = { { 2, 4, 5 }, { 3, 4, 7 }, { 0, 8, 3 } };
+		int a[][] = { { 2, 4, 5 }, { 3, 4, 7 }, { 0, 8, 99 } };
 		int min=a[0][0]	;
 		  for (int i=0;i<a.length;i++) 
 		  { 
@@ -21,7 +21,6 @@ public class MultidimArray {
 		printMatrix(a);
 		
 	}
-
 	public static void printMatrix(int a[][]) {
 		for (int[] i : a) {
 			System.out.println(Arrays.toString(i));
